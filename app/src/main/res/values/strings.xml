@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomBar</string>
+
+    <string name="home">首页</string>
+    <string name="message">消息</string>
+    <string name="me">我的</string>
+</resources>
