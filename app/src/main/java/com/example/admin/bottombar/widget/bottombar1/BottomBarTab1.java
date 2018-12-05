@@ -1,6 +1,7 @@
 package com.example.admin.bottombar.widget.bottombar1;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -49,8 +50,8 @@ public class BottomBarTab1 extends FrameLayout {
     }
 
     public void setBottomTabTextColor(int resId) {
-        int color = ContextCompat.getColor(getContext(), resId);
-        rbBottomTab.setTextColor(color);
+        ColorStateList colorStateList = ContextCompat.getColorStateList(getContext(), resId);
+        rbBottomTab.setTextColor(colorStateList);
     }
 
     public void setBottomTabText(int resId) {
